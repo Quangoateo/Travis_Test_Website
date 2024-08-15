@@ -1,0 +1,8 @@
+#travis CI using Assembla#
+
+dist : focal
+language: ruby
+rvm:
+ - 2.2
+ - jruby
+ perforce_test_path: /your/subpath/within/repository/which/will/be/downloaded 
